@@ -57,11 +57,12 @@ Ce dépôt contient :
 - "Montserrat" pour le titre principal.
 
 ## Couleurs utilisées :
-
+### Thème principal :
 - Vert principal : #16a34a
 - Vert clair : #22c55e
 - Vert foncé : #15803d
 
+### Thème alternatif :
 - Bleu principal : #2563eb
 - Bleu clair : #3b82f6
 - Bleu foncé : #1d4ed8
