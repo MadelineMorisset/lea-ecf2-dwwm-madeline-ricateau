@@ -22,5 +22,134 @@
         />
     </head>
 
-    <body></body>
+    <body>
+        <header>
+            <img
+                src="/assets/images/logo-john-doe.svg"
+                alt="Logo de John Doe"
+            />
+            <div>
+                <button class="toogle_theme green_theme"></button>
+                <button class="toogle_theme blue_theme"></button>
+            </div>
+        </header>
+
+        <main>
+            <div class="banner">
+                <h1>John Doe - Développeur Web</h1>
+                <div class="div_underline"></div>
+            </div>
+
+            <div class="aboutMe">
+                <div class="profile_container">
+                    <h2 class="aboutMe_title">Mon profil</h2>
+                    <div class="profile_content">
+                        <img
+                            src="/assets/images/portrait.jpg"
+                            alt="Photo de John Doe"
+                        />
+                        <p>
+                            Développeur web de père en fils, passionné par la
+                            technologie et l'innovation. J'ai acquis une
+                            expertise en HTML, CSS, JavaScript et Git, me
+                            permettant de créer des sites web performants et
+                            esthétiques. Prêt à relever de nouveaux défis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skills_container">
+                    <h2 class="aboutMe_title">Mes compétences</h2>
+                    <div class="skill_content">
+                        <a href="https://developer.mozilla.org/fr/docs/Web/HTML"
+                            ><img
+                                src="/assets/images/html.svg"
+                                alt="Lien vers documentation sur le HTML"
+                        /></a>
+                        <a href="https://developer.mozilla.org/fr/docs/Web/CSS"
+                            ><img
+                                src="/assets/images/css.svg"
+                                alt="Lien vers documentation sur le CSS"
+                        /></a>
+                        <a
+                            href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                            ><img
+                                src="/assets/images/js.svg"
+                                alt="Lien vers documentation sur le JavaScript"
+                        /></a>
+                        <a href="https://github.com/"
+                            ><img
+                                src="/assets/images/git.svg"
+                                alt="Lien vers documentation sur GitHub"
+                        /></a>
+                    </div>
+                </div>
+
+                <div class="contact_container">
+                    <h2 class="aboutMe_title">Me contacter</h2>
+                    <form action="" method="get">
+                        <div>
+                            <label for="lastname">Nom *</label>
+                            <input
+                                type="text"
+                                id="lastname"
+                                name="lastname"
+                                placeholder="Entrez votre nom"
+                                className="form_input text"
+                            />
+                        </div>
+
+                        <div>
+                            <label for="firstname">Prénom *</label>
+                            <input
+                                type="text"
+                                id="firstname"
+                                name="firstname"
+                                placeholder="Entrez votre prénom"
+                                className="form_input text"
+                            />
+                        </div>
+
+                        <div>
+                            <label for="email">Email *</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Entrez votre email"
+                                className="form_input text"
+                            />
+                        </div>
+
+                        <div>
+                            <label for="phone">Téléphone (facultatif)</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Entrez votre numéro de téléphone"
+                                className="form_input text"
+                            />
+                        </div>
+
+                        <div>
+                            <label for="message">Message *</label>
+                            <input
+                                type="text"
+                                id="message"
+                                name="message"
+                                placeholder="Entrez votre message"
+                                className="form_input text"
+                            />
+                        </div>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; John Doe Officiel</p>
+        </footer>
+    </body>
 </html>
