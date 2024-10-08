@@ -135,7 +135,12 @@
                     <h2 class="aboutMe_title title inlineBlock">
                         Me contacter
                     </h2>
-                    <form action="" method="get" class="contact_content">
+                    <form
+                        action=""
+                        method="get"
+                        id="contactForm"
+                        class="contact_content"
+                    >
                         <div class="halfBox">
                             <label for="lastname">Nom *</label>
                             <input
@@ -192,6 +197,7 @@
                                 required="required"
                                 class="form_input message_input text"
                             ></textarea>
+                            <div id="errorMessage" class="error"></div>
                         </div>
                         <button type="submit" class="submit_button text">
                             Envoyer
