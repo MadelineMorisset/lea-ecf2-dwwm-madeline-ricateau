@@ -1,10 +1,8 @@
-/* 
-    --blueTheme: #2563eb;
-    --blueTheme_light: #3b82f6;
-    --blueTheme_dark: #1d4ed8;
- */
+/* Thème alternatif - Bleu */
 
-.banner {
+.banner,
+.submit_button,
+footer {
     background-color: var(--blueTheme);
 }
 
@@ -15,14 +13,6 @@
 .photo_jd {
     border: 3px solid var(--blueTheme);
 }
-
-.submit_button {
-    background-color: var(--blueTheme);
-}
 .submit_button:hover {
     background-color: var(--blueTheme_dark);
-}
-
-footer {
-    background-color: var(--blueTheme);
 }

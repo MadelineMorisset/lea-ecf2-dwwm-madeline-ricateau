@@ -31,12 +31,6 @@ h2 {
 .text {
     font-family: var(--text);
 }
-.green_theme,
-.banner,
-.submit_button,
-footer {
-    background-color: var(--greenTheme);
-}
 
 /* Header */
 header {
@@ -59,6 +53,9 @@ header {
     height: 20px;
     border-radius: 50%;
     border: none;
+}
+.green_theme {
+    background-color: var(--greenTheme);
 }
 .green_theme:hover {
     background-color: var(--greenTheme_light);
@@ -99,7 +96,6 @@ header {
     margin: 50px auto;
 }
 .aboutMe_title {
-    border-bottom: 3px dotted var(--greenTheme);
     font-weight: 700;
 }
 
@@ -118,7 +114,6 @@ header {
     height: 250px;
     object-fit: cover;
     object-position: right;
-    border: 3px solid var(--greenTheme);
     border-radius: 50%;
 }
 .profile_description {
@@ -186,9 +181,6 @@ label {
     border: none;
     border-radius: 5px;
 }
-.submit_button:hover {
-    background-color: var(--greenTheme_dark);
-}
 
 /* Footer */
 footer {
@@ -211,6 +203,9 @@ footer {
     }
 
     /* Main - banner */
+    /* .banner_title {
+        font-size: medium;
+    } */
     .div_underline {
         width: 60%;
     }

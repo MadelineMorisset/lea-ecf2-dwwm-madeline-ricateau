@@ -1,0 +1,17 @@
+/* Thème principal - Vert */
+
+.banner,
+.submit_button,
+footer {
+    background-color: var(--greenTheme);
+}
+.aboutMe_title {
+    border-bottom: 3px dotted var(--greenTheme);
+}
+
+.photo_jd {
+    border: 3px solid var(--greenTheme);
+}
+.submit_button:hover {
+    background-color: var(--greenTheme_dark);
+}
