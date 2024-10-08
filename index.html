@@ -11,6 +11,19 @@
         <!-- CSS -->
         <link rel="stylesheet" href="styles/reset_css.css" />
         <link rel="stylesheet" href="/styles/style.css" />
+        <link
+            rel="stylesheet"
+            href="styles/theme_principal.css"
+            id="theme_principal"
+        />
+        <link
+            rel="stylesheet"
+            href="styles/theme_alternatif.css"
+            id="theme_alternatif"
+            disabled
+        />
+        <!-- JS -->
+        <script src="themes.js"></script>
         <!-- Google Fonts : "Ubuntu" & "Montserrat"-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,8 +51,14 @@
                     alt="Logo de John Doe"
                 />
                 <div class="toogle_theme_container">
-                    <button class="toogle_theme green_theme"></button>
-                    <button class="toogle_theme blue_theme"></button>
+                    <button
+                        class="toogle_theme green_theme"
+                        onClick="greenTheme()"
+                    ></button>
+                    <button
+                        class="toogle_theme blue_theme"
+                        onClick="blueTheme()"
+                    ></button>
                 </div>
             </div>
         </header>
