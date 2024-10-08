@@ -105,3 +105,28 @@ Ce dépôt contient :
 l'innovation. J'ai acquis une expertise en HTML, CSS, JavaScript
 et Git, me permettant de créer des sites web performants et
 esthétiques. Prêt à relever de nouveaux défis."*
+
+--------------------
+--------------------
+# Organisation des fichiers
+
+## Assets
+- On y retrouve le découpage de la maquette que j'ai réalisé (/decoupage). 
+    => Je l'ai mit ici car si je le mettais dans le dossier ressources, ça pourrait porter à confusion sur l'origine de ce dernier (c'est-à-dire, on pourrait penser qu'il a été transmit avec les autres ressouces en début d'examen).
+- Les images (SVG, photo, favicon) fournies lors de l'examen (/images).
+
+## Ressources
+=> Dossier fournit lors de l'examen. Il contient :
+    - Les images dont on a besoin (et que j'ai copié dans le dossier assets/images) => /images.
+    - Les screenshots des maquettes desktop et mobile, et sous deux thèmes différents => /screenshots.
+    - Les vidéos des différentes animations CSS demandées => /videos.
+
+## Scripts
+=> Script JS pour gérer le changement de thème et de formulaire (celui-ci n'est pas terminé)
+
+## Styles
+=> Les différents fichiers styles CSS se trouvent ici :
+    - reset_css => fichier qui nettoie les style CSS mis en place par défaut sur les navigateurs 
+    - style => styles de l'ensemble du site
+    - theme_alternatif => feuille de style spécifique pour changer le thème en bleu
+    - theme_principal => feuille de style spécifique pour changer le thème en vert
